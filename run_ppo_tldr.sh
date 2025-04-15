@@ -1,5 +1,5 @@
-# PYDEVD_WARN_SLOW_RESOLVE_TIMEOUT=5s PYTHONPATH=/hy-tmp/trl:$PYTHONPATH python -m debugpy --wait-for-client --listen 5678  examples/scripts/ppo/ppo_tldr.py \
-PYTHONPATH=/hy-tmp/trl:$PYTHONPATH python examples/scripts/ppo/ppo_tldr.py \
+# PYTHONPATH=/hy-tmp/trl:$PYTHONPATH python examples/scripts/ppo/ppo_tldr.py \
+PYDEVD_WARN_SLOW_RESOLVE_TIMEOUT=5 PYTHONPATH=/hy-tmp/trl:$PYTHONPATH python -m debugpy --wait-for-client --listen 5678  examples/scripts/ppo/ppo_tldr.py \
     --dataset_name trl-internal-testing/tldr-preference-sft-trl-style \
     --dataset_test_split validation \
     --learning_rate 3e-6 \
