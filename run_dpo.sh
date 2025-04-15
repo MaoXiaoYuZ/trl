@@ -1,0 +1,2 @@
+# PYDEVD_WARN_SLOW_RESOLVE_TIMEOUT=5 PYTHONPATH=/hy-tmp/trl:$PYTHONPATH python -m debugpy --wait-for-client --listen 5678  examples/scripts/dpo.py
+PYDEVD_WARN_SLOW_RESOLVE_TIMEOUT=5 PYTHONPATH=/hy-tmp/trl:$PYTHONPATH python examples/scripts/dpo.py
